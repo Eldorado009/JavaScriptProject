@@ -23,14 +23,13 @@ window.onload=async()=>{
     </ul>
     <div class="card-body">
       <a href="${show["officialSite"]}" class="btn btn-primary">Go to website</a>
-      <a href="${show["image"]["original"]}" class="btn btn-success">Go to detail</a>
+      <a href="detail.html?id=${show["id"]}" class="btn btn-success">Go to detail</a>
 
       
 
     </div>
 </div>
 </div>`
-    });
+});
 }
-
 

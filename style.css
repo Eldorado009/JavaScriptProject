@@ -13,3 +13,12 @@
     color: white;
     padding: 20px;
 }
+
+#searchMovies{
+    display: flex;
+}
+
+#navbarSupportedContent {
+    display: flex;
+    justify-content: space-between;
+}
