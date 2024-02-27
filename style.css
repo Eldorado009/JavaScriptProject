@@ -1,2 +1,15 @@
+#searchMovie{
+    display: flex;
+}
 
+#navbarSupportedContent {
+    display: flex;
+    justify-content: space-between;
+}
 
+#mainSection{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oPkrtscqdqL5VACiTwejeTfTsJaVE6ZOAA&usqp=CAU");
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}

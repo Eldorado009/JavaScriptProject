@@ -9,8 +9,8 @@ window.onload=async()=>{
     let shows=await GetShows();
     let parent=document.getElementById("main")
     shows.forEach(show=> {
-        parent.innerHTML+=`<div class="col-4 mt-4">
-<div class="card" style="width: 17rem;">
+        parent.innerHTML+=`<div class="col-3 mt-4">
+<div class="card" style="width: 17rem; height:700px">
     <img class="card-img-top" src="${show["image"]["medium"]}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">${show["name"]}</h5>
@@ -32,4 +32,5 @@ window.onload=async()=>{
 </div>`
     });
 }
+
 
