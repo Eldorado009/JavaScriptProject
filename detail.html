@@ -44,7 +44,7 @@
     </header>
     <main id="Section">
         <section class="info">
-            <div class="container">
+            <div class="container" id="ByDetail">
                 <div class="row g-0">
 
                 </div>
@@ -59,7 +59,7 @@
 
             var movies = await fetch(`https://api.tvmaze.com/shows/${movieId}`);
             let data = await movies.json();
-            parent.innerHTML += ` <div class="card mb-3" style="width: 340px; height:2000px">
+            parent.innerHTML += ` <div class="card mb-3" style="width: 1250px; height:1000px; display: flex;flex-direction:row; ">
                      <div class="col-md-4">
                             <img src="${data["image"]["original"]}" class="img-fluid rounded-start" >
                         </div>
@@ -68,7 +68,7 @@
                                 <h1 class="card-title">${data["name"]}</h1>
                                 <p class="card-text">${data["summary"]}</p>
                              </div>
-                                <ul class="list-group">
+                                <ul style="padding-left:35px;" class="list-group">
                                   <li>IMDB Point:${data["rating"]["average"]}</li>
                                   <li>Language:${data["language"]}</li>
                                   <li>Genre:${data["genres"]}</li>

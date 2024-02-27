@@ -1,24 +1,54 @@
 #searchMovie{
     display: flex;
+    margin-right: 120px;
 }
 
 #navbarSupportedContent {
     display: flex;
     justify-content: space-between;
+    height: 70px;
 }
 
 #mainSection{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3oPkrtscqdqL5VACiTwejeTfTsJaVE6ZOAA&usqp=CAU");
-    background-size: cover;
-    color: white;
+    /* background-image: url("https://e1.pxfuel.com/desktop-wallpaper/749/497/desktop-wallpaper-lights-background-color-rainbow-red-logo-texture-blue-lines-%D1%84%D0%BE%D0%BD-background-netflix-netflix-effect-colors-effect-lights-section-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83%D1%80%D1%8B-netflix-2021.jpg");
+    background-size: auto; */
+    /* color: white; */
+    background-color: currentColor;
     padding: 20px;
+    display: flex;
+    justify-content:center;
 }
 
-#searchMovies{
-    display: flex;
+.navbar-brand{
+    margin-left: 120px;
 }
 
-#navbarSupportedContent {
+.pagination {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 20px;
 }
+
+.pagination button {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination button:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+
+
+
