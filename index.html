@@ -34,9 +34,13 @@
                         </li>
                     </ul>
                     <form id="searchMovie" class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" id="textInput" type="search" placeholder="Search" aria-label="Search">
-                        <small id="alert-empty" class="text-danger display-none">Don't leave empty!</small>
-                        <small id="alert-length" class="text-danger display-none" >Please, use minimum 3 symbols!</small>
+                        <div style="display: flex; flex-direction: column-reverse;" class="input-error">
+                            <input class="form-control mr-sm-2" id="textInput" type="search" placeholder="Search" aria-label="Search">
+                            <div class="Errors">
+                                <small id="alert-empty" class="text-danger display-none">Don't leave empty!</small>
+                                <small id="alert-length"= class="text-danger display-none" >Please, use minimum 3 symbols!</small>
+                            </div>
+                        </div>
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>

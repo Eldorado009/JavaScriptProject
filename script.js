@@ -25,7 +25,7 @@ window.onload = async () => {
         parent.innerHTML = "";
 
         showsToShow.forEach(show => {
-            parent.innerHTML += `<div class="col-3 mt-4">
+            parent.innerHTML += `<div class="singleFilm col-3 mt-4">
                 <div class="card" style="width: 17rem; height:700px">
                     <img class="card-img-top" src="${show["image"]["medium"]}" alt="Card image cap">
                     <div class="card-body">

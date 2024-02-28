@@ -1,6 +1,6 @@
 #searchMovie{
     display: flex;
-    margin-right: 120px;
+    margin-right: 8.125rem;
 }
 
 #navbarSupportedContent {
@@ -20,7 +20,7 @@
 }
 
 .navbar-brand{
-    margin-left: 120px;
+    margin-left:8.125rem;
 }
 
 .pagination {
@@ -49,6 +49,11 @@
 
 .display-none{
     display: none;
+}
+.singleFilm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
