@@ -34,12 +34,12 @@ window.onload = async () => {
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">IMDB Rating: ${show["rating"]["average"]}</li>
-                        <li class="list-group-item">Genre: ${show["genres"]}</li>
+                        <li class="list-group-item">Genre: ${show["genres"]["1"]}</li>
                         <li class="list-group-item">Language: ${show["language"]}</li>
                     </ul>
                     <div class="card-body">
-                        <a href="${show["officialSite"]}" class="btn btn-primary">Go to website</a>
-                        <a href="detail.html?id=${show["id"]}" class="btn btn-success">Go to detail</a>
+                        <a href="${show["officialSite"]}" class="btn btn-primary" >Go to website</a>
+                        <a href="detail.html?id=${show["id"]}" class="btn btn-success" >Go to detail</a>
                     </div>
                 </div>
             </div>`;
